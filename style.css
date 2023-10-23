@@ -1,0 +1,88 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    transition: .5s;
+}
+header{
+    margin:auto;
+    margin-bottom: 50px;
+}
+#imagem-topo-site{
+    display: block;
+    margin: auto;
+    width: 1200px;
+}
+#topo-header{
+    width: 100%;
+    display: flex;
+    background-color: #051a2c;
+    justify-content: space-between;
+
+}
+#imagem-logo{
+    width: 100px;
+    height: 25px;
+    margin: auto;
+}
+#menu-navegacao{
+    padding: 25px;
+}
+
+a{
+    margin-right: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    border-radius: 3px;
+}
+a:hover{
+    background-color: #ffffff28;
+}
+
+
+
+
+
+#potfolio > h1{
+    margin: auto;
+    max-width: 500px;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: 4px 4px 5px #00000062;
+}
+#potfolio > p{
+    max-width: 800px;
+    margin: 50px auto;
+    text-indent: 30px;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.1em;
+}
+
+#container-imagens-modelo{
+    display: flex;
+    max-width: 1000px;
+    height: 300px;
+    background-color: #183241;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.534);
+    margin: auto;
+}
+
+.imagens-modelos{
+    margin: auto;
+    font-weight: bolder;
+    padding: 0px 0px 30px;
+    text-align: center;
+    background-color: #05121A;
+    color: white;
+    border-radius: 0px 0px 25px 0px;
+}
