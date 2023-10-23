@@ -8,7 +8,7 @@ header{
     margin:auto;
     margin-bottom: 50px;
 }
-#imagem-topo-site{
+#imagem-topo-site{ 
     display: block;
     margin: auto;
     width: 1200px;
@@ -55,9 +55,9 @@ a:hover{
     text-align: center;
     text-shadow: 4px 4px 5px #00000062;
 }
-#potfolio > p{
+.texto-padrao{
     max-width: 800px;
-    margin: 50px auto;
+    margin: 70px auto;
     text-indent: 30px;
     line-height: 1.5em;
     text-align: center;
@@ -85,4 +85,49 @@ a:hover{
     background-color: #05121A;
     color: white;
     border-radius: 0px 0px 25px 0px;
+}
+
+#about{
+    margin: 150px auto;
+    background-color: #003D52;
+    color: rgb(241, 241, 241);
+    height: 600px;
+    width: 1000px;
+    position: relative;
+}
+
+#about > h1{
+    padding: 70px 0px 0px 70px;
+    font-size: 4.5em;
+}
+#about > p{
+    padding: 70px;
+    width: 410px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+#imagem-detalhe{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+#contato{
+    color: #05121A;
+    text-align: center;
+}
+
+footer{
+    background-color: #051a2c;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer:hover{
+    color: #051a2c;
+    background-color: white;
 }
